@@ -1,7 +1,5 @@
-import "./css/style.css";
-
 const appDiv = document.getElementById("app");
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+// appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 const objA = {
   name: "Yura",
@@ -30,4 +28,4 @@ const sectionHeading = document.querySelector(".section__heading");
 
 console.log(sectionHeading.innerHTML);
 
-sectionHeading.innerHTML = "<h1>WTF!!!!!</h2>";
+// sectionHeading.innerHTML = "<h1>WTF!!!!!</h2>";
