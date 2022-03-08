@@ -27,8 +27,23 @@ body {
   background-color: #bbb;
 }
 
+.container {
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .section__heading {
-  color: mediumaquamarine;
+  color: #212121;
   font-size: 45px;
   font-weight: 700;
+}
+
+.section__text {
+  font-size: 35px;
+}
+
+.section__item {
+  font-size: 25px;
+  font-weight: 500;
 }
