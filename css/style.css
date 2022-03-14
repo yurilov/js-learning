@@ -47,3 +47,11 @@ body {
   font-size: 25px;
   font-weight: 500;
 }
+
+strong {
+  color: #2493df;
+}
+
+footer {
+  color: #595959;
+}
