@@ -24,7 +24,7 @@ ul {
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #bbb;
+  background-color: #e0e0e0;
 }
 
 .container {
@@ -35,6 +35,7 @@ body {
 
 .section {
   padding: 10px;
+  background-color: #fff;
 }
 
 .section__heading {
@@ -52,6 +53,12 @@ body {
 .section__item {
   font-size: 25px;
   font-weight: 500;
+}
+
+.tickets {
+  background-color: #687373;
+  margin-top: 10px;
+  color: #fcfcfc;
 }
 
 footer {
