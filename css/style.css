@@ -38,6 +38,7 @@ body {
   font-size: 45px;
   font-weight: 700;
   letter-spacing: 2px;
+  margin: 10px 0;
 }
 
 .section__text {
@@ -57,6 +58,7 @@ footer {
     color: #595959;
     font-size: 14px;
     text-align: center;
+    margin-top: 10px;
 }
 
 strong {
@@ -66,4 +68,9 @@ strong {
 label {
     font-size: 16px;
     font-weight: bold;
+}
+
+
+section {
+    padding: 10px;
 }
