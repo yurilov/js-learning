@@ -50,6 +50,12 @@ body {
   font-size: 35px;
 }
 
+.section__list {
+  list-style-type: square;
+  list-style-position: inside;
+  padding-left: 30px;
+}
+
 .section__item {
   font-size: 25px;
   font-weight: 500;
