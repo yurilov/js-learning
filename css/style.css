@@ -82,3 +82,32 @@ label {
   font-size: 16px;
   font-weight: bold;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: #2493df;
+  color: #fff;
+}
+
+input[type="number"] {
+  padding: 2px;
+  text-align: center;
+  width: 50px;
+}
+
+.btn {
+  background-color: #2493df;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+}
