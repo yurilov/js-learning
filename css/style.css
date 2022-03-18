@@ -110,4 +110,14 @@ input[type="number"] {
   font-size: 16px;
   color: #fff;
   border: none;
+  height: 40px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+}
+
+.form__section {
+  flex: 1;
 }
