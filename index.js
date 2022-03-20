@@ -29,3 +29,4 @@ const sectionHeading = document.querySelector(".section__heading");
 console.log(sectionHeading.innerHTML);
 
 // sectionHeading.innerHTML = "<h1>WTF!!!!!</h2>";
+let adults;
