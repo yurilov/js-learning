@@ -1,13 +1,21 @@
-let adult = 42;
+let adults = 42;
 let children = 8;
 
-function totalPrice(adult, children) {
+function totalPrice(adults, children) {
+  if (adults < 0) {
+    adults = 0;
+  }
+
+  if (children < 0) {
+    children = 0;
+  }
+
   const adultTicketPrice = 12;
   const childrenTicketPrice = 6;
-  const totalPrice = adult * adultTicketPrice + children * childrenTicketPrice;
+  const totalPrice = adults * adultTicketPrice + children * childrenTicketPrice;
 
   return totalPrice;
 }
 
-const price = totalPrice(adult, children);
+const price = totalPrice(adults, children);
 console.log("price", price);
