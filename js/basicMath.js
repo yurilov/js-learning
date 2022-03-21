@@ -19,3 +19,7 @@ function totalPrice(adults, children) {
 
 const price = totalPrice(adults, children);
 console.log("price", price);
+
+for (let i = 1; i <= adults; i += 1) {
+  console.log("Ticket #" + i);
+}
